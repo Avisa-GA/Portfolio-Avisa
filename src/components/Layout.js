@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         {children}
         <div>
           <footer>
-            <p>Copyright 2021 Web Avisa</p>
+            <p>Copyright 2021 AvisaAP</p>
           </footer>
         </div>
       </div>

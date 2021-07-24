@@ -8,18 +8,20 @@ module.exports = {
   /* Your site config here */
   plugins: [
     `gatsby-transformer-remark`,
-    // You can have multiple instances of this plugin
-    // to read source nodes from different locations on your
-    // filesystem.
-    //
-    // The following sets up the Jekyll pattern of having a
-    // "pages" directory for Markdown files and a "data" directory
-    // for `.json`, `.yaml`, `.csv`.
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `notes`,
         path: `${__dirname}/src/notes/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images/`,
       },
     },
     {
@@ -33,6 +35,7 @@ module.exports = {
   siteMetadata: {
     title: 'Avisa Poshtkouhi',
     description: 'full-stack Software Engineer',
-    copyright: 'This website is copyright 2021 Avisa Poshtkouhi'
+    copyright: 'This website is copyright 2021 Avisa Poshtkouhi',
+    contact: 'aap571420@gmail.com'
   }
 }

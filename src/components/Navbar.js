@@ -14,10 +14,14 @@ export default function Navbar() {
     `);
 
     const {title} = data.site.siteMetadata;
+    
 
     return (
         <nav>
-            <h1>{title}</h1>
+          <div className="title" style={{display:"flex", marginBottom: "10%"}}>
+            <img src="/profile.jpg" alt="Avisa" style={{maxWidth: "10%", borderRadius: "50%", marginTop: "-5%"}}/>
+            <h1 style={{marginLeft: "1%"}}>{title}</h1>
+          </div>
             <div className="links">
                 <Link to="/">Home</Link>
                 <Link to="/about">About</Link>

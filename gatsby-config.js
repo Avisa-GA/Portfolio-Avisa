@@ -34,6 +34,7 @@ module.exports = {
   ],
   siteMetadata: {
     title: 'Avisa Poshtkouhi',
+    img: '/profile.jpg',
     description: 'full-stack Software Engineer',
     copyright: 'This website is copyright 2021 Avisa Poshtkouhi',
     contact: 'aap571420@gmail.com'

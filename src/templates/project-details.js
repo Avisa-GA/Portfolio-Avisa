@@ -5,7 +5,7 @@ import Img from "gatsby-image";
 import {
   featured,
   details,
-  htmlTemp,
+  htmlTemp
 } from "../styles/project-details-module.css";
 
 export default function ProjectDetails({ data }) {

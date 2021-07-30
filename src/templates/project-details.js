@@ -2,11 +2,7 @@ import React from "react";
 import { graphql } from "gatsby";
 import Layout from "../components/Layout";
 import Img from "gatsby-image";
-import {
-  featured,
-  details,
-  htmlTemp
-} from "../styles/project-details-module.css";
+import { featured ,details ,htmlTemp } from "../styles/project.details.module.css";
 
 export default function ProjectDetails({ data }) {
 

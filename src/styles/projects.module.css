@@ -14,7 +14,9 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 80px;
     margin: 80px 20px;
+    min-width: 600px;
   }
+
   .projects h3 {
     text-align: center;
     margin: 20px auto 0px;

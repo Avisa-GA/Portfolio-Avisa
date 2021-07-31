@@ -6,6 +6,7 @@
   padding: 0;
   padding-left: 0.2%;
   padding-right: 0.2%;
+  min-width: fit-content;
   text-decoration: none;
   font-family: "Montserrat";
   color: white;

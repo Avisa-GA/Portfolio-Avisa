@@ -11,10 +11,9 @@
   }
   .projects {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-gap: 80px;
     margin: 80px 20px;
-    min-width: 600px;
   }
 
   .projects h3 {
@@ -27,7 +26,4 @@
     margin-top: 4px;
   }
 
-  /* .projects Img {
-    max-width: 500px;
-    max-height: 500px;
-  } */
+  

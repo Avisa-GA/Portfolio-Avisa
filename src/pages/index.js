@@ -25,7 +25,7 @@ export default function Home({data}) {
 }
 
 export const query = graphql`
-  query Banner {
+  query Profile {
     file(relativePath: { eq: "banner-one.jpeg" }) {
       childImageSharp {
         fluid {

@@ -1,11 +1,18 @@
 import React from "react";
+import { graphql, Link } from "gatsby";
 import Layout from "../components/Layout";
+import Img from 'gatsby-image';
 
-export default function About() {
+
+export default function About({data}) {
   return (
     <Layout>
       <div>
         <h1>About</h1>
+        <br />
+        <Img style={{maxWidth: '300px'}}
+          fluid={data.file.childImageSharp.fluid}
+        />
         <p>
           I'm a Full Stack Engineer / Developer with bachelor degree of software
           engineering and with the Background of iOS development .
@@ -24,3 +31,15 @@ export default function About() {
     </Layout>
   );
 }
+
+export const query = graphql`
+  query Banner {
+    file(relativePath: { eq: "profile.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
+      }
+    }
+  }
+`;

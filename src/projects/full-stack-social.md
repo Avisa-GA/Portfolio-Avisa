@@ -12,4 +12,4 @@ My Special Thank You to <strong>[Daniel Scott](https://danieljs.dev/)</strong> f
 <!-- TODO I must work on it -->
 [Live project Link]()
 
-[Github Source Code](https://github.com/Avisa-GA/fullstacksocial)
+[Github Source Code](https://github.com/Avisa-GA/social-web)

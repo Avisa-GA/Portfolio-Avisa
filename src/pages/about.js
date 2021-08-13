@@ -28,6 +28,8 @@ export default function About({data}) {
           web.
         </p>
         <Link style={{color: "#ffd600"}} to="https://www.linkedin.com/in/avisa-a-poshtkouhi/">LinkedIn</Link>
+        <br /> <br /><Link style={{color: "#ffd600"}} to="https://github.com/Avisa-GA">full-stack Github</Link>
+        <br /><br /><Link style={{color: "#ffd600"}} to="https://github.com/Avisa19">iOS Github</Link>
       </div>
     </Layout>
   );

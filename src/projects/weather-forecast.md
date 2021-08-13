@@ -1,5 +1,5 @@
 ---
-title: The Weather Forecast
+title: The Weather Forecast Website
 stack: HTML | CSS | Bootstrap | JS | AJAX | JQuery 
 slug: the-weather-forecast
 thumb: ../images/thumbs/weather.png

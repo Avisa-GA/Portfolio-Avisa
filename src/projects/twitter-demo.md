@@ -1,5 +1,5 @@
 ---
-title: Twitter Demo
+title: Twitter Demo Webite
 stack: HTML5 | CSS3 | JS | NodeJS | AJAX | EJS | Cloudinary | Google Auth | GuardianNews API | Mongo DB | MaterializeCSS
 slug: twitter-demo
 thumb: ../images/thumbs/twitter.png

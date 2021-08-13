@@ -1,5 +1,5 @@
 ---
-title: The Washington Post
+title: The Washington Post Website
 stack: HTML5 | CSS3 | MaterializeCSS | Python | Django
 slug: washington-post
 thumb: ../images/thumbs/post.png

@@ -1,5 +1,5 @@
 ---
-title: iOS Weather app
+title: iOS Mobile Weather app
 stack: Swift | UIKit | URLSession 
 slug: ios-weather-app
 thumb: ../images/thumbs/ios-weather.png

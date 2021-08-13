@@ -1,5 +1,5 @@
 ---
-title: FullStack Social
+title: FullStack Social Website
 stack: React | NodeJs | Cloudinary | Firebase Auth | Mongo DB | Materialize-CSS
 slug: full-stack-social
 thumb: ../images/thumbs/stack.png

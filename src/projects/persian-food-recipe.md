@@ -1,5 +1,5 @@
 ---
-title: Persian Food Recipe
+title: Persian Food Recipe Website
 stack: HTML5 | CSS3 | JS | Ruby Backend | Rails Backend | React | React-Router | Material-UI | Styled-Components | Cloudinary
 slug: persian-food-recipe
 thumb: ../images/thumbs/food.png

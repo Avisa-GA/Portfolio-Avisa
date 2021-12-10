@@ -13,7 +13,7 @@ export default function Home({data}) {
           <h3>full stack</h3>
           <p>based in SanJose</p>
           <Link className={btn} to="https://www.linkedin.com/in/avisa-a-poshtkouhi/">
-            More...
+            LinkedIn
           </Link>
         </div>
         <Img

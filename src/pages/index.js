@@ -11,7 +11,7 @@ export default function Home({data}) {
         <div>
           <h2>Software Engineer</h2>
           <h3>full stack</h3>
-          <p>based in SanJose</p>
+          <p>based in San Jose</p>
           <Link className={btn} to="https://www.linkedin.com/in/avisa-a-poshtkouhi/">
             LinkedIn
           </Link>

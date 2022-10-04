@@ -1,16 +1,16 @@
-import React from "react";
-import { graphql, Link } from "gatsby";
-import Layout from "../components/Layout";
-import Img from 'gatsby-image';
+import React from "react"
+import { graphql, Link } from "gatsby"
+import Layout from "../components/Layout"
+import Img from "gatsby-image"
 
-
-export default function About({data}) {
+export default function About({ data }) {
   return (
     <Layout>
       <div>
         <h1>About</h1>
         <br />
-        <Img style={{maxWidth: '300px'}}
+        <Img
+          style={{ maxWidth: "300px" }}
           fluid={data.file.childImageSharp.fluid}
         />
         <p>
@@ -27,12 +27,18 @@ export default function About({data}) {
           captivating narratives that harness the interactive qualities of the
           web.
         </p>
-        <Link style={{color: "#ffd600"}} to="https://www.linkedin.com/in/avisa-a-poshtkouhi/">LinkedIn</Link>
-        <br /> <br /><Link style={{color: "#ffd600"}} to="https://github.com/Avisa-GA">full-stack Github</Link>
-        <br /><br /><Link style={{color: "#ffd600"}} to="https://github.com/Avisa19">iOS Github</Link>
+        <br /> <br />
+        <Link style={{ color: "#ffd600" }} to="https://github.com/Avisa-GA">
+          full-stack Github
+        </Link>
+        <br />
+        <br />
+        <Link style={{ color: "#ffd600" }} to="https://github.com/Avisa19">
+          iOS Github
+        </Link>
       </div>
     </Layout>
-  );
+  )
 }
 
 export const query = graphql`
@@ -45,4 +51,4 @@ export const query = graphql`
       }
     }
   }
-`;
+`

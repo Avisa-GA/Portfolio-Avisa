@@ -15,6 +15,9 @@ export default function Home({data}) {
           <Link className={btn} to="https://www.linkedin.com/in/avisa-a-poshtkouhi/">
             LinkedIn
           </Link>
+          <Link className={btn} to="https://generalassemb.ly/instructors/avisa-poshtkouhi/28400">
+            General Assembly
+          </Link>
         </div>
         <Img
           fluid={data.file.childImageSharp.fluid}

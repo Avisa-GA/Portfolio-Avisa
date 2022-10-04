@@ -8,7 +8,7 @@ export default function Home({data}) {
   return (
     <Layout>
       <section className={header}>
-        <div>
+        <div style={{ display:'flex', justifyContent:'space-between' }} >
           <h2>Software Engineer</h2>
           <h3>full stack</h3>
           <p>based in San Jose</p>

@@ -21,7 +21,7 @@ export default function Home({ data }) {
           >
             <Link
               className={btn}
-              to="https://www.linkedin.com/in/avisa-a-poshtkouhi/"
+              to="https://www.linkedin.com/in/avisaposhtkouhi/"
             >
               LinkedIn
             </Link>
